@@ -39,10 +39,10 @@
 .movie__genres {
   list-style: none;
   padding: 0;
-  margin: 0;
+  /* margin: 0; */
   display: flex;
   flex-wrap: wrap;
-  margin: 5px 0px;
+  /* margin: 5px 0px; */
 }
 
 .movie__genres li,

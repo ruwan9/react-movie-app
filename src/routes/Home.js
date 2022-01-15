@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Movie from "../components/Movie";
+import Movie from "../components/Movie/Movie";
 import styles from "./Home.module.css";
 
 function Home() {
@@ -21,8 +21,6 @@ function Home() {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.loader}>Movies</h1>
-      <hr />
       {loading ? (
         <h3>Loading ...</h3>
       ) : (
